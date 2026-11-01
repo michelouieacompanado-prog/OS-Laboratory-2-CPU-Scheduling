@@ -60,7 +60,7 @@ CPU scheduling is the operating system function that decides which process in th
 
 The complete program is in the repository file `cpu_scheduling.py`.
 
-> 📎 _(Optional: paste the full source code here inside a ```python code block, or write "See cpu_scheduling.py in the repository: <link>")_
+See [cpu_scheduling.py](cpu_scheduling.py) in the repository.
 
 ---
 
@@ -68,13 +68,13 @@ The complete program is in the repository file `cpu_scheduling.py`.
 
 Command used: `python3 cpu_scheduling.py`
 
-![Part C terminal output (1)](screenshots/part-c-1.png)
+![Part C terminal output (1)](screenshots/part-c-1.PNG)
 
-![Part C terminal output (2)](screenshots/part-c-2.png)
+![Part C terminal output (2)](screenshots/part-c-2.PNG)
 
-![Part C terminal output (3)](screenshots/part-c-3.png)
+![Part C terminal output (3)](screenshots/part-c-3.PNG)
 
-![Part C terminal output (4)](screenshots/part-c-4.png)
+![Part C terminal output (4)](screenshots/part-c-4.PNG)
 
 **Average results from the program (original dataset; SRTF uses its own dataset):**
 
@@ -292,6 +292,16 @@ Segments: P1 [0-1] | P2 [1-2] | P3 [2-4] | P4 [4-5] | P2 [5-8] | P1 [8-15]
 | 5 | P2 (3 left) is next shortest and runs 5–8. |
 | 8 | Only P1 is left and runs 8–15. |
 
+### 6.6 Handwritten Gantt Charts and Calculations
+
+> 📸 **PASTE SCREENSHOT HERE** — Photo of handwritten Gantt charts (FCFS, SJF, Priority)  
+> _(save the image as `screenshots/part-d-1.png` and replace this block with `![Photo of handwritten Gantt charts (FCFS, SJF, Priority)](screenshots/part-d-1.png)`)_
+
+> 📸 **PASTE SCREENSHOT HERE** — Photo of handwritten Gantt charts and calculations (Round Robin, SRTF)  
+> _(save the image as `screenshots/part-d-2.png` and replace this block with `![Photo of handwritten Gantt charts and calculations (Round Robin, SRTF)](screenshots/part-d-2.png)`)_
+
+_(Add or remove photo lines to match how many pictures you took.)_
+
 ---
 
 ## 7. Part E — Round Robin Time-Quantum Experiment (original dataset)
@@ -300,11 +310,11 @@ Step 22: the line `ps, g = round_robin(PROCESSES, quantum=2)` was changed to `qu
 
 ### Quantum = 4
 
-![Quantum 4 terminal output (1)](screenshots/q4-1.png)
+![Quantum 4 terminal output (1)](screenshots/q4-1.PNG)
 
-![Quantum 4 terminal output (2)](screenshots/q4-2.png)
+![Quantum 4 terminal output (2)](screenshots/q4-2.PNG)
 
-![Quantum 4 terminal output (3)](screenshots/q4-3.png)
+![Quantum 4 terminal output (3)](screenshots/q4-3.PNG)
 
 Gantt chart:
 
@@ -324,13 +334,13 @@ Gantt chart:
 
 ### Quantum = 1
 
-![Quantum 1 terminal output (1)](screenshots/q1-1.png)
+![Quantum 1 terminal output (1)](screenshots/q1-1.PNG)
 
-![Quantum 1 terminal output (2)](screenshots/q1-2.png)
+![Quantum 1 terminal output (2)](screenshots/q1-2.PNG)
 
-![Quantum 1 terminal output (3)](screenshots/q1-3.png)
+![Quantum 1 terminal output (3)](screenshots/q1-3.PNG)
 
-![Quantum 1 terminal output (4)](screenshots/q1-4.png)
+![Quantum 1 terminal output (4)](screenshots/q1-4.PNG)
 
 Gantt chart (consecutive 1 ms turns of the same process are drawn as one box, e.g. P1 18–20 is two turns):
 
@@ -383,13 +393,13 @@ Burst times and priorities were changed (arrival times kept at 0 for a fair comp
 | P3 | 0 | 7 | 1 |
 | P4 | 0 | 2 | 2 |
 
-![Modified dataset terminal output (1)](screenshots/step23-1.png)
+![Modified dataset terminal output (1)](screenshots/step23-1.PNG)
 
-![Modified dataset terminal output (2)](screenshots/step23-2.png)
+![Modified dataset terminal output (2)](screenshots/step23-2.PNG)
 
-![Modified dataset terminal output (3)](screenshots/step23-3.png)
+![Modified dataset terminal output (3)](screenshots/step23-3.PNG)
 
-![Modified dataset terminal output (4)](screenshots/step23-4.png)
+![Modified dataset terminal output (4)](screenshots/step23-4.PNG)
 
 ### Gantt charts for the modified dataset
 
@@ -485,11 +495,9 @@ _SRTF uses its own arrival-time dataset, so it cannot be compared directly with 
 
 Steps done: opened Source Control, reviewed `cpu_scheduling.py`, committed with the message `Implement CPU scheduling algorithms`, and clicked Sync Changes.
 
-> 📸 **PASTE SCREENSHOT HERE** — Source Control commit and sync  
-> _(save the image as `screenshots/part-f-commit.png` and replace this block with `![Source Control commit and sync](screenshots/part-f-commit.png)`)_
+![Source Control commit and sync](screenshots/part-f-commit.png)
 
-> 📸 **PASTE SCREENSHOT HERE** — GitHub repository page showing cpu_scheduling.py  
-> _(save the image as `screenshots/part-f-github.png` and replace this block with `![GitHub repository page showing cpu_scheduling.py](screenshots/part-f-github.png)`)_
+![GitHub repository page showing cpu_scheduling.py](screenshots/part-f-github.png)
 
 ---
 
@@ -558,4 +566,3 @@ In this laboratory activity a CPU scheduling simulator was developed in Python u
 - [ ] Results of the Round Robin time-quantum experiment (Section 7)
 - [ ] Answers to the laboratory questions (Section 10)
 - [ ] Brief analysis and conclusion (Sections 11 and 12)
-
