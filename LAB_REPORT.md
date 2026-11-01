@@ -5,9 +5,9 @@
 
 | | |
 |---|---|
-| **Name** | _(write your name here)_ |
-| **Date** | _(write the date here)_ |
-| **Course & Year** | _(write your course and year here)_ |
+| **Name** | _Miche Louie B. Acompañado_ |
+| **Date** | _October 29, 2026_ |
+| **Course & Year** | _BSCA 3RD YEAR_ |
 
 # Lab Activity 2 — CPU Scheduling Algorithms
 
@@ -15,7 +15,7 @@
 
 ## 1. GitHub Repository Link
 
-**Repository:** _(paste your link here, e.g. https://github.com/your-username/OS-Laboratory-2-CPU-Scheduling)_
+**Repository:** _https://github.com/michelouieacompanado-prog/OS-Laboratory-2-CPU-Scheduling_
 
 ---
 
@@ -68,14 +68,13 @@ The complete program is in the repository file `cpu_scheduling.py`.
 
 Command used: `python3 cpu_scheduling.py`
 
-> 📸 **PASTE SCREENSHOT HERE** — Terminal output: FCFS and SJF  
-> _(save the image as `screenshots/part-c-1-fcfs-sjf.png` and replace this block with `![Terminal output: FCFS and SJF](screenshots/part-c-1-fcfs-sjf.png)`)_
+![Part C terminal output (1)](screenshots/part-c-1.png)
 
-> 📸 **PASTE SCREENSHOT HERE** — Terminal output: Priority and start of Round Robin  
-> _(save the image as `screenshots/part-c-2-priority-rr.png` and replace this block with `![Terminal output: Priority and start of Round Robin](screenshots/part-c-2-priority-rr.png)`)_
+![Part C terminal output (2)](screenshots/part-c-2.png)
 
-> 📸 **PASTE SCREENSHOT HERE** — Terminal output: Round Robin and SRTF  
-> _(save the image as `screenshots/part-c-3-rr-srtf.png` and replace this block with `![Terminal output: Round Robin and SRTF](screenshots/part-c-3-rr-srtf.png)`)_
+![Part C terminal output (3)](screenshots/part-c-3.png)
+
+![Part C terminal output (4)](screenshots/part-c-4.png)
 
 **Average results from the program (original dataset; SRTF uses its own dataset):**
 
@@ -301,8 +300,11 @@ Step 22: the line `ps, g = round_robin(PROCESSES, quantum=2)` was changed to `qu
 
 ### Quantum = 4
 
-> 📸 **PASTE SCREENSHOT HERE** — Round Robin output with quantum = 4  
-> _(save the image as `screenshots/part-e-quantum-4.png` and replace this block with `![Round Robin output with quantum = 4](screenshots/part-e-quantum-4.png)`)_
+![Quantum 4 terminal output (1)](screenshots/q4-1.png)
+
+![Quantum 4 terminal output (2)](screenshots/q4-2.png)
+
+![Quantum 4 terminal output (3)](screenshots/q4-3.png)
 
 Gantt chart:
 
@@ -322,8 +324,13 @@ Gantt chart:
 
 ### Quantum = 1
 
-> 📸 **PASTE SCREENSHOT HERE** — Round Robin output with quantum = 1  
-> _(save the image as `screenshots/part-e-quantum-1.png` and replace this block with `![Round Robin output with quantum = 1](screenshots/part-e-quantum-1.png)`)_
+![Quantum 1 terminal output (1)](screenshots/q1-1.png)
+
+![Quantum 1 terminal output (2)](screenshots/q1-2.png)
+
+![Quantum 1 terminal output (3)](screenshots/q1-3.png)
+
+![Quantum 1 terminal output (4)](screenshots/q1-4.png)
 
 Gantt chart (consecutive 1 ms turns of the same process are drawn as one box, e.g. P1 18–20 is two turns):
 
@@ -376,11 +383,13 @@ Burst times and priorities were changed (arrival times kept at 0 for a fair comp
 | P3 | 0 | 7 | 1 |
 | P4 | 0 | 2 | 2 |
 
-> 📸 **PASTE SCREENSHOT HERE** — Terminal output for the modified dataset: FCFS and SJF  
-> _(save the image as `screenshots/step-23-1.png` and replace this block with `![Terminal output for the modified dataset: FCFS and SJF](screenshots/step-23-1.png)`)_
+![Modified dataset terminal output (1)](screenshots/step23-1.png)
 
-> 📸 **PASTE SCREENSHOT HERE** — Terminal output for the modified dataset: Priority and Round Robin  
-> _(save the image as `screenshots/step-23-2.png` and replace this block with `![Terminal output for the modified dataset: Priority and Round Robin](screenshots/step-23-2.png)`)_
+![Modified dataset terminal output (2)](screenshots/step23-2.png)
+
+![Modified dataset terminal output (3)](screenshots/step23-3.png)
+
+![Modified dataset terminal output (4)](screenshots/step23-4.png)
 
 ### Gantt charts for the modified dataset
 
@@ -549,3 +558,4 @@ In this laboratory activity a CPU scheduling simulator was developed in Python u
 - [ ] Results of the Round Robin time-quantum experiment (Section 7)
 - [ ] Answers to the laboratory questions (Section 10)
 - [ ] Brief analysis and conclusion (Sections 11 and 12)
+
