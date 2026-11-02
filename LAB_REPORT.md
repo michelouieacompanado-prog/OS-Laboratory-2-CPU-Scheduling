@@ -294,9 +294,9 @@ Segments: P1 [0-1] | P2 [1-2] | P3 [2-4] | P4 [4-5] | P2 [5-8] | P1 [8-15]
 
 ### 6.6 Handwritten Gantt Charts and Calculations
 
-![Handwritten Gantt charts and calculations (1)](screenshots/part-d-1.jpg)
+![Handwritten Gantt charts and calculations (1)](screenshots/part-d-1.jpeg)
 
-![Handwritten Gantt charts and calculations (2)](screenshots/part-d-2.jpg)
+![Handwritten Gantt charts and calculations (2)](screenshots/part-d-2.jpeg)
 
 ---
 
