@@ -294,13 +294,9 @@ Segments: P1 [0-1] | P2 [1-2] | P3 [2-4] | P4 [4-5] | P2 [5-8] | P1 [8-15]
 
 ### 6.6 Handwritten Gantt Charts and Calculations
 
-> 📸 **PASTE SCREENSHOT HERE** — Photo of handwritten Gantt charts (FCFS, SJF, Priority)  
-> _(save the image as `screenshots/part-d-1.png` and replace this block with `![Photo of handwritten Gantt charts (FCFS, SJF, Priority)](screenshots/part-d-1.png)`)_
+![Handwritten Gantt charts and calculations (1)](screenshots/part-d-1.jpg)
 
-> 📸 **PASTE SCREENSHOT HERE** — Photo of handwritten Gantt charts and calculations (Round Robin, SRTF)  
-> _(save the image as `screenshots/part-d-2.png` and replace this block with `![Photo of handwritten Gantt charts and calculations (Round Robin, SRTF)](screenshots/part-d-2.png)`)_
-
-_(Add or remove photo lines to match how many pictures you took.)_
+![Handwritten Gantt charts and calculations (2)](screenshots/part-d-2.jpg)
 
 ---
 
